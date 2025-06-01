@@ -1,0 +1,22 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pulseGradient" x1="0" y1="0" x2="120" y2="120" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6366F1"></stop>
+      <stop offset="1" stop-color="#A855F7"></stop>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="120" height="120">
+      <feDropShadow dx="0" dy="1" stdDeviation="1.5" flood-color="#6366F1"></feDropShadow>
+    </filter>
+  </defs>
+  <circle cx="60" cy="60" r="56" stroke="url(#pulseGradient)" stroke-width="8" fill="white"></circle>
+  <g filter="url(#shadow)">
+    <path d="M60 32V60L78 72" stroke="#6366F1" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></path>
+  </g>
+  <path d="M40 48C40 38 52 36 60 48C68 36 80 38 80 48C80 62 60 76 60 76C60 76 40 62 40 48Z" fill="#6366F1"></path>
+  <path d="M60 48V52" stroke="white" stroke-width="3" stroke-linecap="round"></path>
+  <path d="M60 60H64" stroke="white" stroke-width="3" stroke-linecap="round"></path>
+  <circle cx="90" cy="30" r="6" fill="#A855F7">
+    <animate attributeName="r" values="6;8;6" dur="1.5s" repeatCount="indefinite"></animate>
+    <animate attributeName="opacity" values="1;0.6;1" dur="1.5s" repeatCount="indefinite"></animate>
+  </circle>
+</svg>
