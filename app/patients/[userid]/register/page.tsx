@@ -45,8 +45,4 @@ const Home = ({ searchParams }: SearchParamProps) => {
   );
 };
 
-<<<<<<< HEAD
 export default Home;
-=======
-export default Home;
->>>>>>> 8d5f408ff701f40e055380dcebca0f0c217a3522

@@ -1,5 +1,6 @@
 @tailwind base;
 @tailwind components;
+<<<<<<< HEAD
 @tailwind utilities;
 
 /* ========================================== TAILWIND STYLES */
@@ -348,3 +349,6 @@
 .PhoneInputInput::placeholder {
   color: #1a1d21;
 }
+=======
+@tailwind utilities;
+>>>>>>> 8d5f408ff701f40e055380dcebca0f0c217a3522

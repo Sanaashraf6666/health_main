@@ -4,11 +4,15 @@ import * as Sentry from "@sentry/nextjs";
 import NextError from "next/error";
 import { useEffect } from "react";
 
+<<<<<<< HEAD
 export default function GlobalError({
   error,
 }: {
   error: Error & { digest?: string };
 }) {
+=======
+export default function GlobalError({ error }: { error: Error & { digest?: string } }) {
+>>>>>>> 8d5f408ff701f40e055380dcebca0f0c217a3522
   useEffect(() => {
     Sentry.captureException(error);
   }, [error]);
@@ -24,4 +28,8 @@ export default function GlobalError({
       </body>
     </html>
   );
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8d5f408ff701f40e055380dcebca0f0c217a3522

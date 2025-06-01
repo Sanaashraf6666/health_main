@@ -40,6 +40,7 @@ export const IdentificationTypes = [
   "Voter ID Card",
 ];
 
+<<<<<<< HEAD
 export const Doctors = [
   {
     image: "/assets/images/dr-green.png",
@@ -84,3 +85,16 @@ export const StatusIcon = {
   pending: "/assets/icons/pending.svg",
   cancelled: "/assets/icons/cancelled.svg",
 };
+=======
+export const Doctor = [
+  {
+    image: "/assets/images/dr-shalima.png",
+    name: "Shalima Asharaf",
+  },
+];
+export const StatusIcon = {
+  scheduled: "/assets/icons/check.jpeg",
+  pending: "/assets/icons/pending.png",
+  cancelled: "/assets/icons/cancelled.png",
+};
+>>>>>>> 8d5f408ff701f40e055380dcebca0f0c217a3522
